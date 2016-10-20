@@ -1659,11 +1659,11 @@ class Model
             if (!empty($this->tableName)) {
                 $tableName .= $this->tableName;
             } else {
-                $tableName .= parse_name($this->name);
-                // $tableName .= $this->name;
+                // $tableName .= parse_name($this->name);
+                $tableName .= $this->name;
             }
-            $this->trueTableName = strtolower($tableName);
-            // $this->trueTableName = $tableName;
+            // $this->trueTableName = strtolower($tableName);
+            $this->trueTableName = $tableName;
         }
         return (!empty($this->dbName) ? $this->dbName . '.' : '') . $this->trueTableName;
     }
