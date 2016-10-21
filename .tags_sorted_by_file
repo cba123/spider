@@ -225,6 +225,7 @@ parse_name	ThinkPHP\Common\functions.php	/^function parse_name($name, $type = 0)
 parse_res_name	ThinkPHP\Common\functions.php	/^function parse_res_name($name, $layer, $level = 1)$/;"	f
 path	ThinkPHP\Common\functions.php	/^            $path                = explode($depr, $url);$/;"	v
 path	ThinkPHP\Common\functions.php	/^            $path = implode($depr, array_reverse($var));$/;"	v
+path	ThinkPHP\Common\functions.php	/^    $path = $path?$path:APP_PATH."scriptLog\/flushLog.txt";$/;"	v
 path	ThinkPHP\Common\functions.php	/^function controller($name, $path = '')$/;"	v
 pos	ThinkPHP\Common\functions.php	/^            $pos = array_search('unknown', $arr);$/;"	v
 prefix	ThinkPHP\Common\functions.php	/^        $prefix = empty($value) ? $config['prefix'] : $value;$/;"	v
@@ -260,6 +261,7 @@ type	ThinkPHP\Common\functions.php	/^        $type  = isset($name['type']) ? $na
 type	ThinkPHP\Common\functions.php	/^        $type  = isset($options['type']) ? $options['type'] : '';$/;"	v
 type	ThinkPHP\Common\functions.php	/^        $type = 's';$/;"	v
 type	ThinkPHP\Common\functions.php	/^    $type      = $type ? 1 : 0;$/;"	v
+type	ThinkPHP\Common\functions.php	/^    $type = $type?$type:"flush";$/;"	v
 type	ThinkPHP\Common\functions.php	/^function parse_name($name, $type = 0)$/;"	v
 type	ThinkPHP\Common\functions.php	/^function throw_exception($msg, $type = 'Think\\\\Exception', $code = 0)$/;"	v
 url	ThinkPHP\Common\functions.php	/^                    $url    = substr_replace($url, '', 0, strlen($rule));$/;"	v
@@ -302,6 +304,7 @@ vars	ThinkPHP\Common\functions.php	/^        $vars = array_merge($params, $vars)
 vars	ThinkPHP\Common\functions.php	/^function R($url, $vars = array(), $layer = '')$/;"	v
 vars	ThinkPHP\Common\functions.php	/^function U($url = '', $vars = '', $suffix = true, $domain = false)$/;"	v
 vendor	ThinkPHP\Common\functions.php	/^function vendor($class, $baseUrl = '', $ext = '.php')$/;"	f
+writeLog	ThinkPHP\Common\functions.php	/^function writeLog($message,$type,$path){$/;"	f
 xml	ThinkPHP\Common\functions.php	/^    $xml  = "<?xml version=\\"1.0\\" encoding=\\"{$encoding}\\"?>";$/;"	v
 xml	ThinkPHP\Common\functions.php	/^    $xml = $attr = '';$/;"	v
 xml_encode	ThinkPHP\Common\functions.php	/^function xml_encode($data, $root = 'think', $item = 'item', $attr = '', $id = 'id', $encoding = 'utf-8')$/;"	f
@@ -3203,7 +3206,8 @@ tablePrefix	ThinkPHP\Library\Think\Model.class.php	/^            $this->tablePre
 tablePrefix	ThinkPHP\Library\Think\Model.class.php	/^            $this->tablePrefix = '';$/;"	v
 tablePrefix	ThinkPHP\Library\Think\Model.class.php	/^    protected $tablePrefix = null;$/;"	v
 tablePrefix	ThinkPHP\Library\Think\Model.class.php	/^    public function __construct($name = '', $tablePrefix = '', $connection = '')$/;"	v
-trueTableName	ThinkPHP\Library\Think\Model.class.php	/^            $this->trueTableName = strtolower($tableName);$/;"	v
+trueTableName	ThinkPHP\Library\Think\Model.class.php	/^            $this->trueTableName = $tableName;$/;"	v
+trueTableName	ThinkPHP\Library\Think\Model.class.php	/^            \/\/ $this->trueTableName = strtolower($tableName);$/;"	v
 trueTableName	ThinkPHP\Library\Think\Model.class.php	/^    protected $trueTableName = '';$/;"	v
 type	ThinkPHP\Library\Think\Model.class.php	/^        $type = $type ?: (!empty($data[$this->getPk()]) ? self::MODEL_UPDATE : self::MODEL_INSERT);$/;"	v
 type	ThinkPHP\Library\Think\Model.class.php	/^        $type = strtolower(trim($type));$/;"	v
@@ -12873,12 +12877,22 @@ _root	ThinkPHP\ThinkPHP.php	/^        $_root = rtrim(dirname(_PHP_FILE_), '\/');
 _temp	ThinkPHP\ThinkPHP.php	/^            $_temp = explode('.php', $_SERVER['PHP_SELF']);$/;"	v
 IndexController	front\Home\Controller\IndexController.class.php	/^class IndexController extends Controller$/;"	c
 __construct	front\Home\Controller\IndexController.class.php	/^	public function __construct(){$/;"	f
-errorLogModel	front\Home\Controller\IndexController.class.php	/^		$errorLogModel = M("ERROR_INFO_B");$/;"	v
-errorTypeModel	front\Home\Controller\IndexController.class.php	/^		$errorTypeModel = M("ERROR_INFO_D");$/;"	v
+aSql	front\Home\Controller\IndexController.class.php	/^    	$aSql = " BEGIN_TM < NOW() AND END_TM > NOW() AND LTR_CD='".$lottery."'";$/;"	v
+errorLogModel	front\Home\Controller\IndexController.class.php	/^		$this->errorLogModel = M("ERROR_INFO_R");$/;"	v
+errorLogModel	front\Home\Controller\IndexController.class.php	/^	private $errorLogModel;$/;"	v
+errorTypeModel	front\Home\Controller\IndexController.class.php	/^		$this->errorTypeModel = M("ERROR_INFO_D");$/;"	v
+errorTypeModel	front\Home\Controller\IndexController.class.php	/^	private $errorTypeModel;$/;"	v
+flushlog	front\Home\Controller\IndexController.class.php	/^	private $flushlog = "flushlog.txt";\/\/脚本log$/;"	v
 index	front\Home\Controller\IndexController.class.php	/^    public function index()$/;"	f
-issueModel	front\Home\Controller\IndexController.class.php	/^		$issueModel = M('ISSUE_INFO_B');$/;"	v
-issueModel	front\Home\Controller\IndexController.class.php	/^		$issueModel = M('SRC_INFO_B');$/;"	v
-ltrModel	front\Home\Controller\IndexController.class.php	/^		$ltrModel = M('LTR_TYPE_D');$/;"	v
+issueInfoModel	front\Home\Controller\IndexController.class.php	/^	private $issueInfoModel;$/;"	v
+issueModel	front\Home\Controller\IndexController.class.php	/^		$this->issueModel = M('ISSUE_INFO_B');$/;"	v
+issueModel	front\Home\Controller\IndexController.class.php	/^	private $issueModel;$/;"	v
+lottery	front\Home\Controller\IndexController.class.php	/^    	$lottery = 'GP_SSC_GD11X5';$/;"	v
+lotteryInfo	front\Home\Controller\IndexController.class.php	/^    	$lotteryInfo = $this->issueModel->where($aSql)->find();$/;"	v
+ltrModel	front\Home\Controller\IndexController.class.php	/^		$this->ltrModel = M('LTR_TYPE_D');$/;"	v
+ltrModel	front\Home\Controller\IndexController.class.php	/^	private $ltrModel;$/;"	v
+snoopy	front\Home\Controller\IndexController.class.php	/^		$this->snoopy = new \\Think\\Snoopy();$/;"	v
+snoopy	front\Home\Controller\IndexController.class.php	/^	private $snoopy;$/;"	v
 APP_DEBUG	index.php	/^define('APP_DEBUG', true);$/;"	d
 APP_PATH	index.php	/^define('APP_PATH', '.\/front\/');$/;"	d
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/

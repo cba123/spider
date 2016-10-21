@@ -1759,3 +1759,19 @@ function in_array_case($value, $array)
 {
     return in_array(strtolower($value), array_map('strtolower', $array));
 }
+
+/*
+写日志
+ */
+function writeLog($message,$type='',$path=''){
+    echo $message."\n";
+    $type = $type?$type:"flush";
+    $path = $path?$path:APP_PATH."scriptLog/flushLog.txt";
+    \Think\Log::write($message,$type,"file",$path);
+}
+
+// function microtime_float()
+// {
+//     list($usec, $sec) = explode(" ", microtime());
+//     return ((float)$usec + (float)$sec);
+// }

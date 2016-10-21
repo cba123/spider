@@ -890,3 +890,534 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
 
+[ 2016-10-20T18:44:39+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-10-20T18:52:51+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/Dispatcher.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-10-20T18:53:25+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/Dispatcher.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-10-20T18:53:32+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-10-20T18:53:44+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-10-20T18:54:43+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-10-20T18:55:59+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-10-20T18:56:13+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0020s ]
+
+[ 2016-10-20T18:56:21+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-10-20T18:56:33+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: argv F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 96 行.
+
+[ 2016-10-20T18:56:38+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/Dispatcher.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: issueModel /cygdrive/f/wamp/www/newspider/front/Home/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: issueInfoModel /cygdrive/f/wamp/www/newspider/front/Home/Controller/IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0010s ]
+
+[ 2016-10-20T19:00:08+08:00 ]  
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: REQUEST_METHOD /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/App.class.php 第 32 行.
+NOTIC: [8] Undefined index: REQUEST_URI /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/Dispatcher.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant _PHP_FILE_ - assumed '_PHP_FILE_' /cygdrive/f/wamp/www/newspider/ThinkPHP/Library/Think/Dispatcher.class.php 第 208 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: issueModel /cygdrive/f/wamp/www/newspider/front/Home/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: issueInfoModel /cygdrive/f/wamp/www/newspider/front/Home/Controller/IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0010s ]
+
+[ 2016-10-20T19:02:19+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0010s ]
+
+[ 2016-10-20T19:11:51+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0011s ]
+
+[ 2016-10-20T19:12:42+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: global F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 98 行.
+
+[ 2016-10-20T19:13:29+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0022s ]
+
+[ 2016-10-20T19:15:35+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-10-20T19:15:42+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-10-20T19:15:50+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0033s ]
+
+[ 2016-10-20T19:16:07+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0019s ]
+
+[ 2016-10-20T19:16:26+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0015s ]
+
+[ 2016-10-20T19:16:35+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0010s ]
+
+[ 2016-10-20T19:16:35+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0012s ]
+
+[ 2016-10-20T19:16:35+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0012s ]
+
+[ 2016-10-20T19:17:08+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0007s ]
+
+[ 2016-10-20T19:17:44+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+ERR: 11111
+[ 2016-10-20T19:17:44+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-10-20T19:18:09+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0015s ]
+
+[ 2016-10-20T19:18:18+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0019s ]
+
+[ 2016-10-20T19:20:07+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-10-20T19:20:45+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-10-20T19:20:50+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-10-20T19:21:13+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-10-20T19:21:14+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-10-20T19:21:14+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-10-20T19:21:14+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-10-20T19:21:55+08:00 ] 127.0.0.1 /newspider/index.php/home/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `LTR_TYPE_D` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ISSUE_INFO_B` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: issueModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `SRC_INFO_B` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: issueInfoModel F:\wamp\www\newspider\front\Home\Controller\IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `ERROR_INFO_D` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ERROR_INFO_R` [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+

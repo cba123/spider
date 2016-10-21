@@ -2583,6 +2583,7 @@ a	.\ThinkPHP\Library\Vendor\phpRPC\dhparams.php	/^            $a = array(96, 128
 a	.\ThinkPHP\Library\Vendor\phpRPC\dhparams.php	/^            $a = array(96, 128, 160, 192, 256, 512, 768, 1024, 1536);$/;"	v
 a	.\ThinkPHP\Library\Vendor\phpRPC\dhparams.php	/^            $a = array(96, 128, 160, 192, 256, 512, 768, 1024, 1536, 2048, 3072, 4096);$/;"	v
 a	.\ThinkPHP\Library\Vendor\spyc\tests\RoundTripTest.php	/^        $a = array('a', 'b', 'c', 'd'); \/\/ Create a simple list$/;"	v
+aSql	.\front\Home\Controller\IndexController.class.php	/^    	$aSql = " BEGIN_TM < NOW() AND END_TM > NOW() AND LTR_CD='".$lottery."'";$/;"	v
 a_name	.\ThinkPHP\Library\Vendor\TemplateLite\class.compiler.php	/^						$a_name = $value;$/;"	v
 abort_and_recompile	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_templatecompilerbase.php	/^            $this->abort_and_recompile = false;$/;"	v
 accept	.\ThinkPHP\Library\Think\Snoopy.class.php	/^    var $accept = "image\/gif, image\/x-xbitmap, image\/jpeg, image\/pjpeg, *\/*";$/;"	v
@@ -4877,13 +4878,15 @@ error	.\ThinkPHP\Mode\Lite\Model.class.php	/^            $this->error = L('_DATA
 error	.\ThinkPHP\Mode\Lite\Model.class.php	/^    protected $error = '';$/;"	v
 errorHandler	.\ThinkPHP\Library\Behavior\FireShowPageTraceBehavior.class.php	/^    public function errorHandler($errno, $errstr, $errfile, $errline, $errcontext)$/;"	f
 errorHandler	.\ThinkPHP\Library\Vendor\phpRPC\phprpc_server.php	/^    function errorHandler($errno, $errstr, $errfile, $errline) {$/;"	f
-errorLogModel	.\front\Home\Controller\IndexController.class.php	/^		$errorLogModel = M("ERROR_INFO_B");$/;"	v
+errorLogModel	.\front\Home\Controller\IndexController.class.php	/^		$this->errorLogModel = M("ERROR_INFO_R");$/;"	v
+errorLogModel	.\front\Home\Controller\IndexController.class.php	/^	private $errorLogModel;$/;"	v
 errorStr	.\ThinkPHP\Library\Think\Think.class.php	/^                $errorStr = "$errstr " . $errfile . " 第 $errline 行.";$/;"	v
 errorStr	.\ThinkPHP\Library\Think\Think.class.php	/^                $errorStr = "[$errno] $errstr " . $errfile . " 第 $errline 行.";$/;"	v
 errorStr	.\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php	/^        $this->errorStr           = $this->errorStr['error'];$/;"	v
 errorStr	.\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php	/^        $this->errorStr           = json_decode($body, 1);$/;"	v
 errorTable	.\ThinkPHP\Library\Vendor\Hprose\HproseHttpServer.php	/^    private $errorTable = array(E_ERROR => 'Error',$/;"	v
-errorTypeModel	.\front\Home\Controller\IndexController.class.php	/^		$errorTypeModel = M("ERROR_INFO_D");$/;"	v
+errorTypeModel	.\front\Home\Controller\IndexController.class.php	/^		$this->errorTypeModel = M("ERROR_INFO_D");$/;"	v
+errorTypeModel	.\front\Home\Controller\IndexController.class.php	/^	private $errorTypeModel;$/;"	v
 error_enable	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_data.php	/^    public function getConfigVariable($variable, $error_enable = true)$/;"	v
 error_handler	.\ThinkPHP\Library\Vendor\Smarty\Smarty.class.php	/^        $error_handler = array('Smarty', 'mutingErrorHandler');$/;"	v
 error_page	.\ThinkPHP\Library\Think\Think.class.php	/^            $error_page = C('ERROR_PAGE');$/;"	v
@@ -5417,6 +5420,7 @@ flags	.\ThinkPHP\Library\Vendor\phpRPC\compat.php	/^        $flags  = ord(substr
 flush	.\ThinkPHP\Library\Think\Model.class.php	/^    public function flush()$/;"	f
 flush	.\ThinkPHP\Library\Think\Model\MongoModel.class.php	/^    public function flush()$/;"	f
 flush	.\ThinkPHP\Mode\Lite\Model.class.php	/^    public function flush()$/;"	f
+flushlog	.\front\Home\Controller\IndexController.class.php	/^	private $flushlog = "flushlog.txt";\/\/脚本log$/;"	v
 fontttf	.\ThinkPHP\Library\Think\Verify.class.php	/^            $this->fontttf = $ttfs[array_rand($ttfs)];$/;"	v
 fontttf	.\ThinkPHP\Library\Think\Verify.class.php	/^        $this->fontttf = $ttfPath . $this->fontttf;$/;"	v
 for	.\ThinkPHP\Library\Behavior\FireShowPageTraceBehavior.class.php	/^     * array-walking function for use in generating JSON-formatted name-value pairs$/;"	f
@@ -6442,8 +6446,9 @@ isize	.\ThinkPHP\Library\Vendor\phpRPC\compat.php	/^        $isize = $isize[1];$
 isize	.\ThinkPHP\Library\Vendor\phpRPC\compat.php	/^        $isize = unpack("V", substr($data, -4));$/;"	v
 isset_par	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_templateparser.php	/^                    $isset_par = '$_tmp'.$this->prefix_number;$/;"	v
 isset_par	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_templateparser.php	/^                    $isset_par=str_replace("')->value","',null,true,false)->value",$par);$/;"	v
-issueModel	.\front\Home\Controller\IndexController.class.php	/^		$issueModel = M('ISSUE_INFO_B');$/;"	v
-issueModel	.\front\Home\Controller\IndexController.class.php	/^		$issueModel = M('SRC_INFO_B');$/;"	v
+issueInfoModel	.\front\Home\Controller\IndexController.class.php	/^	private $issueInfoModel;$/;"	v
+issueModel	.\front\Home\Controller\IndexController.class.php	/^		$this->issueModel = M('ISSUE_INFO_B');$/;"	v
+issueModel	.\front\Home\Controller\IndexController.class.php	/^	private $issueModel;$/;"	v
 item	.\ThinkPHP\Common\functions.php	/^function data_to_xml($data, $item = 'item', $id = 'id')$/;"	v
 item	.\ThinkPHP\Library\Think\Route.class.php	/^                                        $item = substr($item, 1);$/;"	v
 item	.\ThinkPHP\Library\Think\Route.class.php	/^                                        $item = substr($item, 1, $pos - 1);$/;"	v
@@ -7157,8 +7162,11 @@ loop	.\ThinkPHP\Library\Vendor\Smarty\plugins\function.html_table.php	/^    $loo
 loop_count	.\ThinkPHP\Library\Vendor\Smarty\plugins\function.html_table.php	/^    $loop_count = count($loop);$/;"	v
 loopinc	.\ThinkPHP\Library\Think\Crypt\Driver\Des.class.php	/^                $loopinc = $looping[$j + 2];$/;"	v
 looping	.\ThinkPHP\Library\Think\Crypt\Driver\Des.class.php	/^        if (3 == $iterations) {$looping = (($encrypt) ? array(0, 32, 2) : array(30, -2, -2));} else { $looping = (($encrypt) ? array(0, 32, 2, 62, 30, -2, 64, 96, 2) : array(94, 62, -2, 32, 64, 2, 30, -2, -2));}$/;"	v
+lottery	.\front\Home\Controller\IndexController.class.php	/^    	$lottery = 'GP_SSC_GD11X5';$/;"	v
+lotteryInfo	.\front\Home\Controller\IndexController.class.php	/^    	$lotteryInfo = $this->issueModel->where($aSql)->find();$/;"	v
 lowBitMasks	.\ThinkPHP\Library\Vendor\phpRPC\bigint.php	/^        $lowBitMasks = array(0x0000, 0x0001, 0x0003, 0x0007,$/;"	v
-ltrModel	.\front\Home\Controller\IndexController.class.php	/^		$ltrModel = M('LTR_TYPE_D');$/;"	v
+ltrModel	.\front\Home\Controller\IndexController.class.php	/^		$this->ltrModel = M('LTR_TYPE_D');$/;"	v
+ltrModel	.\front\Home\Controller\IndexController.class.php	/^	private $ltrModel;$/;"	v
 lvl_block	.\ThinkPHP\Library\Vendor\SmartTemplate\class.smarttemplatedebugger.php	/^			$lvl_block =  array();$/;"	v
 lvl_row	.\ThinkPHP\Library\Vendor\SmartTemplate\class.smarttemplatedebugger.php	/^			$lvl_row   =  array();$/;"	v
 lvl_typ	.\ThinkPHP\Library\Vendor\SmartTemplate\class.smarttemplatedebugger.php	/^			$lvl_typ   =  array();$/;"	v
@@ -8597,6 +8605,7 @@ patchValidate	.\ThinkPHP\Library\Think\Model.class.php	/^    protected $patchVal
 patchValidate	.\ThinkPHP\Mode\Lite\Model.class.php	/^    protected $patchValidate = false;$/;"	v
 path	.\ThinkPHP\Common\functions.php	/^            $path                = explode($depr, $url);$/;"	v
 path	.\ThinkPHP\Common\functions.php	/^            $path = implode($depr, array_reverse($var));$/;"	v
+path	.\ThinkPHP\Common\functions.php	/^    $path = $path?$path:APP_PATH."scriptLog\/flushLog.txt";$/;"	v
 path	.\ThinkPHP\Common\functions.php	/^function controller($name, $path = '')$/;"	v
 path	.\ThinkPHP\Library\Behavior\CheckActionRouteBehavior.class.php	/^            $path = $info['path'];$/;"	v
 path	.\ThinkPHP\Library\Behavior\CheckActionRouteBehavior.class.php	/^            $path = $url;$/;"	v
@@ -10325,6 +10334,8 @@ smarty_token_names	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_c
 smarty_token_names	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_templatelexer.php	/^    public $smarty_token_names = array (		\/\/ Text for parser error messages$/;"	v
 smarty_var	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_templateparser.php	/^        $smarty_var = $this->compiler->compileTag('private_special_variable',array(),$this->yystack[$this->yyidx + 0]->minor['smarty_internal_index']);$/;"	v
 smarty_variablefilter_htmlspecialchars	.\ThinkPHP\Library\Vendor\Smarty\plugins\variablefilter.htmlspecialchars.php	/^function smarty_variablefilter_htmlspecialchars($source, $smarty)$/;"	f
+snoopy	.\front\Home\Controller\IndexController.class.php	/^		$this->snoopy = new \\Think\\Snoopy();$/;"	v
+snoopy	.\front\Home\Controller\IndexController.class.php	/^	private $snoopy;$/;"	v
 sort	.\ThinkPHP\Library\Think\Db\Driver.class.php	/^                    $sort    = in_array(strtolower($val), array('asc', 'desc')) ? ' ' . $val : '';$/;"	v
 sort	.\ThinkPHP\Library\Think\Model\MergeModel.class.php	/^                $sort  = isset($array[1]) ? $array[1] : 'ASC';$/;"	v
 sort	.\ThinkPHP\Library\Think\Model\ViewModel.class.php	/^                $sort  = isset($array[1]) ? $array[1] : 'ASC';$/;"	v
@@ -11451,7 +11462,8 @@ trigger_error	.\ThinkPHP\Library\Vendor\Smarty\SmartyBC.class.php	/^    public f
 trigger_error	.\ThinkPHP\Library\Vendor\TemplateLite\class.template.php	/^	function trigger_error($error_msg, $error_type = E_USER_ERROR, $file = null, $line = null)$/;"	f
 trigger_template_error	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_templatecompilerbase.php	/^    public function trigger_template_error($args = null, $line = null)$/;"	f
 trimUrl	.\ThinkPHP\Library\Think\Upload\Driver\Bcs\bcs.class.php	/^    public static function trimUrl($url)$/;"	f
-trueTableName	.\ThinkPHP\Library\Think\Model.class.php	/^            $this->trueTableName = strtolower($tableName);$/;"	v
+trueTableName	.\ThinkPHP\Library\Think\Model.class.php	/^            $this->trueTableName = $tableName;$/;"	v
+trueTableName	.\ThinkPHP\Library\Think\Model.class.php	/^            \/\/ $this->trueTableName = strtolower($tableName);$/;"	v
 trueTableName	.\ThinkPHP\Library\Think\Model.class.php	/^    protected $trueTableName = '';$/;"	v
 trueTableName	.\ThinkPHP\Library\Think\Model\MergeModel.class.php	/^            $this->trueTableName = implode(',', $tableName);$/;"	v
 trueTableName	.\ThinkPHP\Library\Think\Model\MongoModel.class.php	/^            $this->trueTableName = strtolower($tableName);$/;"	v
@@ -11471,6 +11483,7 @@ type	.\ThinkPHP\Common\functions.php	/^        $type  = isset($name['type']) ? $
 type	.\ThinkPHP\Common\functions.php	/^        $type  = isset($options['type']) ? $options['type'] : '';$/;"	v
 type	.\ThinkPHP\Common\functions.php	/^        $type = 's';$/;"	v
 type	.\ThinkPHP\Common\functions.php	/^    $type      = $type ? 1 : 0;$/;"	v
+type	.\ThinkPHP\Common\functions.php	/^    $type = $type?$type:"flush";$/;"	v
 type	.\ThinkPHP\Common\functions.php	/^function parse_name($name, $type = 0)$/;"	v
 type	.\ThinkPHP\Common\functions.php	/^function throw_exception($msg, $type = 'Think\\\\Exception', $code = 0)$/;"	v
 type	.\ThinkPHP\Library\Behavior\CheckActionRouteBehavior.class.php	/^                    $type = substr($val, -1);$/;"	v
@@ -12235,6 +12248,7 @@ writeFile	.\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file
 writeInfinity	.\ThinkPHP\Library\Vendor\Hprose\HproseWriter.php	/^    public function writeInfinity($positive = true) {$/;"	f
 writeInteger	.\ThinkPHP\Library\Vendor\Hprose\HproseWriter.php	/^    public function writeInteger($integer) {$/;"	f
 writeList	.\ThinkPHP\Library\Vendor\Hprose\HproseWriter.php	/^    public function writeList(&$list, $checkRef = false) {$/;"	f
+writeLog	.\ThinkPHP\Common\functions.php	/^function writeLog($message,$type,$path){$/;"	f
 writeLong	.\ThinkPHP\Library\Vendor\Hprose\HproseWriter.php	/^    public function writeLong($long) {$/;"	f
 writeMap	.\ThinkPHP\Library\Vendor\Hprose\HproseWriter.php	/^    public function writeMap(&$map, $checkRef = false) {$/;"	f
 writeNaN	.\ThinkPHP\Library\Vendor\Hprose\HproseWriter.php	/^    public function writeNaN() {$/;"	f
